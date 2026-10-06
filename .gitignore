@@ -1,0 +1,30 @@
+# Local working files (not part of the published case)
+*.part
+*.tmp
+*.log
+__pycache__/
+*.pyc
+.DS_Store
+data/raw/
+
+# Raw run artifacts and third-party files — never commit
+benchmarks/
+results/
+*.csv
+*.json
+*.gguf
+*.tar.gz
+*.tar.xz
+*.tgz
+*.zip
+*.patch
+*.diff
+*.ko
+*.bin
+*.safetensors
+*.onnx
+*.pt
+*.npy
+*.parquet
+*.sqlite
+*.out

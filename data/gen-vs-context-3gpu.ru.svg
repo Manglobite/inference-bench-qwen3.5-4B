@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="620" viewBox="0 0 1000 620">
+<rect x="0" y="0" width="1000" height="620" fill="#ffffff"/>
+<text x="60" y="46" font-family="sans-serif" font-size="22" text-anchor="start" fill="#222222" font-weight="bold">Генерация vs длина контекста: три GPU</text>
+<text x="60" y="74" font-family="sans-serif" font-size="13" text-anchor="start" fill="#666666">Qwen3.5-4B Q4_0 · n_predict 128 · чистая серия</text>
+<line x1="120" y1="108" x2="146" y2="108" stroke="#2f6fb3" stroke-width="3"/>
+<circle cx="133" cy="108" r="4" fill="#2f6fb3" stroke="none" stroke-width="1"/>
+<text x="154" y="112" font-family="sans-serif" font-size="12" text-anchor="start" fill="#222222">CMP 70HX</text>
+<line x1="320" y1="108" x2="346" y2="108" stroke="#e58f00" stroke-width="3"/>
+<circle cx="333" cy="108" r="4" fill="#e58f00" stroke="none" stroke-width="1"/>
+<text x="354" y="112" font-family="sans-serif" font-size="12" text-anchor="start" fill="#222222">CMP 50HX</text>
+<line x1="520" y1="108" x2="546" y2="108" stroke="#2e8b57" stroke-width="3"/>
+<circle cx="533" cy="108" r="4" fill="#2e8b57" stroke="none" stroke-width="1"/>
+<text x="554" y="112" font-family="sans-serif" font-size="12" text-anchor="start" fill="#222222">RTX 2080 Ti</text>
+<line x1="120" y1="550" x2="880" y2="550" stroke="#e6e6e6" stroke-width="1"/>
+<text x="112" y="554" font-family="sans-serif" font-size="11" text-anchor="end" fill="#666666">0</text>
+<line x1="120" y1="455" x2="880" y2="455" stroke="#e6e6e6" stroke-width="1"/>
+<text x="112" y="459" font-family="sans-serif" font-size="11" text-anchor="end" fill="#666666">30</text>
+<line x1="120" y1="360" x2="880" y2="360" stroke="#e6e6e6" stroke-width="1"/>
+<text x="112" y="364" font-family="sans-serif" font-size="11" text-anchor="end" fill="#666666">60</text>
+<line x1="120" y1="265" x2="880" y2="265" stroke="#e6e6e6" stroke-width="1"/>
+<text x="112" y="269" font-family="sans-serif" font-size="11" text-anchor="end" fill="#666666">90</text>
+<line x1="120" y1="170" x2="880" y2="170" stroke="#e6e6e6" stroke-width="1"/>
+<text x="112" y="174" font-family="sans-serif" font-size="11" text-anchor="end" fill="#666666">120</text>
+<line x1="120.083" y1="550" x2="120.083" y2="555" stroke="#888888" stroke-width="1"/>
+<text x="120.083" y="572" font-family="sans-serif" font-size="11" text-anchor="middle" fill="#666666">10</text>
+<line x1="199.914" y1="550" x2="199.914" y2="555" stroke="#888888" stroke-width="1"/>
+<text x="199.914" y="572" font-family="sans-serif" font-size="11" text-anchor="middle" fill="#666666">9 650</text>
+<line x1="276.25" y1="550" x2="276.25" y2="555" stroke="#888888" stroke-width="1"/>
+<text x="276.25" y="572" font-family="sans-serif" font-size="11" text-anchor="middle" fill="#666666">18 868</text>
+<line x1="352.586" y1="550" x2="352.586" y2="555" stroke="#888888" stroke-width="1"/>
+<text x="352.586" y="572" font-family="sans-serif" font-size="11" text-anchor="middle" fill="#666666">28 086</text>
+<line x1="428.922" y1="550" x2="428.922" y2="555" stroke="#888888" stroke-width="1"/>
+<text x="428.922" y="572" font-family="sans-serif" font-size="11" text-anchor="middle" fill="#666666">37 304</text>
+<line x1="880" y1="550" x2="880" y2="555" stroke="#888888" stroke-width="1"/>
+<text x="880" y="572" font-family="sans-serif" font-size="11" text-anchor="middle" fill="#666666">91 774</text>
+<line x1="120" y1="170" x2="120" y2="550" stroke="#888888" stroke-width="1"/>
+<line x1="120" y1="550" x2="880" y2="550" stroke="#888888" stroke-width="1"/>
+<polyline points="120.083,355.954 199.914,371.87 276.25,383.844 276.25,384.413 352.586,394.925 428.922,405.087 880,444.946" fill="none" stroke="#2f6fb3" stroke-width="2.5" stroke-linejoin="round"/>
+<circle cx="120.083" cy="355.954" r="4.5" fill="#2f6fb3" stroke="none" stroke-width="1"/>
+<text x="126.083" y="341.954" font-family="sans-serif" font-size="11" text-anchor="start" fill="#222222" font-weight="bold">61.3</text>
+<circle cx="199.914" cy="371.87" r="4.5" fill="#2f6fb3" stroke="none" stroke-width="1"/>
+<text x="199.914" y="357.87" font-family="sans-serif" font-size="11" text-anchor="middle" fill="#222222" font-weight="bold">56.3</text>
+<circle cx="276.25" cy="383.844" r="4.5" fill="#2f6fb3" stroke="none" stroke-width="1"/>
+<text x="276.25" y="369.844" font-family="sans-serif" font-size="11" text-anchor="middle" fill="#222222" font-weight="bold">52.5</text>
+<circle cx="276.25" cy="384.413" r="4.5" fill="#2f6fb3" stroke="none" stroke-width="1"/>
+<text x="276.25" y="370.413" font-family="sans-serif" font-size="11" text-anchor="middle" fill="#222222" font-weight="bold">52.3</text>
+<circle cx="352.586" cy="394.925" r="4.5" fill="#2f6fb3" stroke="none" stroke-width="1"/>
+<text x="352.586" y="380.925" font-family="sans-serif" font-size="11" text-anchor="middle" fill="#222222" font-weight="bold">49.0</text>
+<circle cx="428.922" cy="405.087" r="4.5" fill="#2f6fb3" stroke="none" stroke-width="1"/>
+<text x="428.922" y="391.087" font-family="sans-serif" font-size="11" text-anchor="middle" fill="#222222" font-weight="bold">45.8</text>
+<circle cx="880" cy="444.946" r="4.5" fill="#2f6fb3" stroke="none" stroke-width="1"/>
+<text x="874" y="430.946" font-family="sans-serif" font-size="11" text-anchor="end" fill="#222222" font-weight="bold">33.2</text>
+<polyline points="120.083,350.369 199.914,361.644 276.25,370.166 276.25,370.993 352.586,379.108 428.922,386.477 880,422.987" fill="none" stroke="#e58f00" stroke-width="2.5" stroke-linejoin="round"/>
+<circle cx="120.083" cy="350.369" r="4.5" fill="#e58f00" stroke="none" stroke-width="1"/>
+<text x="126.083" y="367.369" font-family="sans-serif" font-size="11" text-anchor="start" fill="#222222" font-weight="bold">63.0</text>
+<circle cx="199.914" cy="361.644" r="4.5" fill="#e58f00" stroke="none" stroke-width="1"/>
+<text x="199.914" y="378.644" font-family="sans-serif" font-size="11" text-anchor="middle" fill="#222222" font-weight="bold">59.5</text>
+<circle cx="276.25" cy="370.166" r="4.5" fill="#e58f00" stroke="none" stroke-width="1"/>
+<text x="276.25" y="387.166" font-family="sans-serif" font-size="11" text-anchor="middle" fill="#222222" font-weight="bold">56.8</text>
+<circle cx="276.25" cy="370.993" r="4.5" fill="#e58f00" stroke="none" stroke-width="1"/>
+<text x="276.25" y="387.993" font-family="sans-serif" font-size="11" text-anchor="middle" fill="#222222" font-weight="bold">56.5</text>
+<circle cx="352.586" cy="379.108" r="4.5" fill="#e58f00" stroke="none" stroke-width="1"/>
+<text x="352.586" y="396.108" font-family="sans-serif" font-size="11" text-anchor="middle" fill="#222222" font-weight="bold">54.0</text>
+<circle cx="428.922" cy="386.477" r="4.5" fill="#e58f00" stroke="none" stroke-width="1"/>
+<text x="428.922" y="403.477" font-family="sans-serif" font-size="11" text-anchor="middle" fill="#222222" font-weight="bold">51.6</text>
+<circle cx="880" cy="422.987" r="4.5" fill="#e58f00" stroke="none" stroke-width="1"/>
+<text x="874" y="439.987" font-family="sans-serif" font-size="11" text-anchor="end" fill="#222222" font-weight="bold">40.1</text>
+<polyline points="120.083,249.821 199.914,265.953 276.25,280.482 276.25,282.427 352.586,296.585 428.922,313.932 880,389.089" fill="none" stroke="#2e8b57" stroke-width="2.5" stroke-linejoin="round"/>
+<circle cx="120.083" cy="249.821" r="4.5" fill="#2e8b57" stroke="none" stroke-width="1"/>
+<text x="126.083" y="235.821" font-family="sans-serif" font-size="11" text-anchor="start" fill="#222222" font-weight="bold">94.8</text>
+<circle cx="199.914" cy="265.953" r="4.5" fill="#2e8b57" stroke="none" stroke-width="1"/>
+<text x="199.914" y="251.953" font-family="sans-serif" font-size="11" text-anchor="middle" fill="#222222" font-weight="bold">89.7</text>
+<circle cx="276.25" cy="280.482" r="4.5" fill="#2e8b57" stroke="none" stroke-width="1"/>
+<text x="276.25" y="266.482" font-family="sans-serif" font-size="11" text-anchor="middle" fill="#222222" font-weight="bold">85.1</text>
+<circle cx="276.25" cy="282.427" r="4.5" fill="#2e8b57" stroke="none" stroke-width="1"/>
+<text x="276.25" y="268.427" font-family="sans-serif" font-size="11" text-anchor="middle" fill="#222222" font-weight="bold">84.5</text>
+<circle cx="352.586" cy="296.585" r="4.5" fill="#2e8b57" stroke="none" stroke-width="1"/>
+<text x="352.586" y="282.585" font-family="sans-serif" font-size="11" text-anchor="middle" fill="#222222" font-weight="bold">80.0</text>
+<circle cx="428.922" cy="313.932" r="4.5" fill="#2e8b57" stroke="none" stroke-width="1"/>
+<text x="428.922" y="299.932" font-family="sans-serif" font-size="11" text-anchor="middle" fill="#222222" font-weight="bold">74.5</text>
+<circle cx="880" cy="389.089" r="4.5" fill="#2e8b57" stroke="none" stroke-width="1"/>
+<text x="874" y="375.089" font-family="sans-serif" font-size="11" text-anchor="end" fill="#222222" font-weight="bold">50.8</text>
+<text x="500" y="608" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#222222">токенов в промпте</text>
+<text x="54" y="360" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#666666" transform="rotate(-90 54 360)">Генерация, t/s</text>
+</svg>

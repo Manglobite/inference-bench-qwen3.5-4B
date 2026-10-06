@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="620" viewBox="0 0 1000 620">
+<rect x="0" y="0" width="1000" height="620" fill="#ffffff"/>
+<text x="60" y="46" font-family="sans-serif" font-size="22" text-anchor="start" fill="#222222" font-weight="bold">Prefill vs context length: three GPUs</text>
+<text x="60" y="74" font-family="sans-serif" font-size="13" text-anchor="start" fill="#666666">Qwen3.5-4B Q4_0 · n_predict 128 · clean series</text>
+<line x1="120" y1="108" x2="146" y2="108" stroke="#2f6fb3" stroke-width="3"/>
+<circle cx="133" cy="108" r="4" fill="#2f6fb3" stroke="none" stroke-width="1"/>
+<text x="154" y="112" font-family="sans-serif" font-size="12" text-anchor="start" fill="#222222">CMP 70HX</text>
+<line x1="320" y1="108" x2="346" y2="108" stroke="#e58f00" stroke-width="3"/>
+<circle cx="333" cy="108" r="4" fill="#e58f00" stroke="none" stroke-width="1"/>
+<text x="354" y="112" font-family="sans-serif" font-size="12" text-anchor="start" fill="#222222">CMP 50HX</text>
+<line x1="520" y1="108" x2="546" y2="108" stroke="#2e8b57" stroke-width="3"/>
+<circle cx="533" cy="108" r="4" fill="#2e8b57" stroke="none" stroke-width="1"/>
+<text x="554" y="112" font-family="sans-serif" font-size="12" text-anchor="start" fill="#222222">RTX 2080 Ti</text>
+<line x1="120" y1="550" x2="880" y2="550" stroke="#e6e6e6" stroke-width="1"/>
+<text x="112" y="554" font-family="sans-serif" font-size="11" text-anchor="end" fill="#666666">0</text>
+<line x1="120" y1="455" x2="880" y2="455" stroke="#e6e6e6" stroke-width="1"/>
+<text x="112" y="459" font-family="sans-serif" font-size="11" text-anchor="end" fill="#666666">875</text>
+<line x1="120" y1="360" x2="880" y2="360" stroke="#e6e6e6" stroke-width="1"/>
+<text x="112" y="364" font-family="sans-serif" font-size="11" text-anchor="end" fill="#666666">1750</text>
+<line x1="120" y1="265" x2="880" y2="265" stroke="#e6e6e6" stroke-width="1"/>
+<text x="112" y="269" font-family="sans-serif" font-size="11" text-anchor="end" fill="#666666">2625</text>
+<line x1="120" y1="170" x2="880" y2="170" stroke="#e6e6e6" stroke-width="1"/>
+<text x="112" y="174" font-family="sans-serif" font-size="11" text-anchor="end" fill="#666666">3500</text>
+<line x1="120.083" y1="550" x2="120.083" y2="555" stroke="#888888" stroke-width="1"/>
+<text x="120.083" y="572" font-family="sans-serif" font-size="11" text-anchor="middle" fill="#666666">10</text>
+<line x1="199.914" y1="550" x2="199.914" y2="555" stroke="#888888" stroke-width="1"/>
+<text x="199.914" y="572" font-family="sans-serif" font-size="11" text-anchor="middle" fill="#666666">9,650</text>
+<line x1="276.25" y1="550" x2="276.25" y2="555" stroke="#888888" stroke-width="1"/>
+<text x="276.25" y="572" font-family="sans-serif" font-size="11" text-anchor="middle" fill="#666666">18,868</text>
+<line x1="352.586" y1="550" x2="352.586" y2="555" stroke="#888888" stroke-width="1"/>
+<text x="352.586" y="572" font-family="sans-serif" font-size="11" text-anchor="middle" fill="#666666">28,086</text>
+<line x1="428.922" y1="550" x2="428.922" y2="555" stroke="#888888" stroke-width="1"/>
+<text x="428.922" y="572" font-family="sans-serif" font-size="11" text-anchor="middle" fill="#666666">37,304</text>
+<line x1="880" y1="550" x2="880" y2="555" stroke="#888888" stroke-width="1"/>
+<text x="880" y="572" font-family="sans-serif" font-size="11" text-anchor="middle" fill="#666666">91,774</text>
+<line x1="120" y1="170" x2="120" y2="550" stroke="#888888" stroke-width="1"/>
+<line x1="120" y1="550" x2="880" y2="550" stroke="#888888" stroke-width="1"/>
+<polyline points="120.083,546.995 199.914,368.195 276.25,377.967 276.25,378.277 352.586,391.79 428.922,404.355 880,452.685" fill="none" stroke="#2f6fb3" stroke-width="2.5" stroke-linejoin="round"/>
+<circle cx="120.083" cy="546.995" r="4.5" fill="#2f6fb3" stroke="none" stroke-width="1"/>
+<text x="126.083" y="532.995" font-family="sans-serif" font-size="11" text-anchor="start" fill="#222222" font-weight="bold">28</text>
+<circle cx="199.914" cy="368.195" r="4.5" fill="#2f6fb3" stroke="none" stroke-width="1"/>
+<text x="199.914" y="354.195" font-family="sans-serif" font-size="11" text-anchor="middle" fill="#222222" font-weight="bold">1675</text>
+<circle cx="276.25" cy="377.967" r="4.5" fill="#2f6fb3" stroke="none" stroke-width="1"/>
+<text x="276.25" y="363.967" font-family="sans-serif" font-size="11" text-anchor="middle" fill="#222222" font-weight="bold">1585</text>
+<circle cx="276.25" cy="378.277" r="4.5" fill="#2f6fb3" stroke="none" stroke-width="1"/>
+<text x="276.25" y="364.277" font-family="sans-serif" font-size="11" text-anchor="middle" fill="#222222" font-weight="bold">1582</text>
+<circle cx="352.586" cy="391.79" r="4.5" fill="#2f6fb3" stroke="none" stroke-width="1"/>
+<text x="352.586" y="377.79" font-family="sans-serif" font-size="11" text-anchor="middle" fill="#222222" font-weight="bold">1457</text>
+<circle cx="428.922" cy="404.355" r="4.5" fill="#2f6fb3" stroke="none" stroke-width="1"/>
+<text x="428.922" y="390.355" font-family="sans-serif" font-size="11" text-anchor="middle" fill="#222222" font-weight="bold">1341</text>
+<circle cx="880" cy="452.685" r="4.5" fill="#2f6fb3" stroke="none" stroke-width="1"/>
+<text x="874" y="438.685" font-family="sans-serif" font-size="11" text-anchor="end" fill="#222222" font-weight="bold">896</text>
+<polyline points="120.083,547.011 199.914,332.773 276.25,349.084 276.25,350.263 352.586,370.431 428.922,388.248 880,450.031" fill="none" stroke="#e58f00" stroke-width="2.5" stroke-linejoin="round"/>
+<circle cx="120.083" cy="547.011" r="4.5" fill="#e58f00" stroke="none" stroke-width="1"/>
+<text x="126.083" y="564.011" font-family="sans-serif" font-size="11" text-anchor="start" fill="#222222" font-weight="bold">28</text>
+<circle cx="199.914" cy="332.773" r="4.5" fill="#e58f00" stroke="none" stroke-width="1"/>
+<text x="199.914" y="349.773" font-family="sans-serif" font-size="11" text-anchor="middle" fill="#222222" font-weight="bold">2001</text>
+<circle cx="276.25" cy="349.084" r="4.5" fill="#e58f00" stroke="none" stroke-width="1"/>
+<text x="276.25" y="366.084" font-family="sans-serif" font-size="11" text-anchor="middle" fill="#222222" font-weight="bold">1851</text>
+<circle cx="276.25" cy="350.263" r="4.5" fill="#e58f00" stroke="none" stroke-width="1"/>
+<text x="276.25" y="367.263" font-family="sans-serif" font-size="11" text-anchor="middle" fill="#222222" font-weight="bold">1840</text>
+<circle cx="352.586" cy="370.431" r="4.5" fill="#e58f00" stroke="none" stroke-width="1"/>
+<text x="352.586" y="387.431" font-family="sans-serif" font-size="11" text-anchor="middle" fill="#222222" font-weight="bold">1654</text>
+<circle cx="428.922" cy="388.248" r="4.5" fill="#e58f00" stroke="none" stroke-width="1"/>
+<text x="428.922" y="405.248" font-family="sans-serif" font-size="11" text-anchor="middle" fill="#222222" font-weight="bold">1490</text>
+<circle cx="880" cy="450.031" r="4.5" fill="#e58f00" stroke="none" stroke-width="1"/>
+<text x="874" y="467.031" font-family="sans-serif" font-size="11" text-anchor="end" fill="#222222" font-weight="bold">921</text>
+<polyline points="120.083,543.466 199.914,228.939 276.25,255.744 276.25,258.736 352.586,281.618 428.922,304.285 880,387.301" fill="none" stroke="#2e8b57" stroke-width="2.5" stroke-linejoin="round"/>
+<circle cx="120.083" cy="543.466" r="4.5" fill="#2e8b57" stroke="none" stroke-width="1"/>
+<text x="126.083" y="529.466" font-family="sans-serif" font-size="11" text-anchor="start" fill="#222222" font-weight="bold">60</text>
+<circle cx="199.914" cy="228.939" r="4.5" fill="#2e8b57" stroke="none" stroke-width="1"/>
+<text x="199.914" y="214.939" font-family="sans-serif" font-size="11" text-anchor="middle" fill="#222222" font-weight="bold">2957</text>
+<circle cx="276.25" cy="255.744" r="4.5" fill="#2e8b57" stroke="none" stroke-width="1"/>
+<text x="276.25" y="241.744" font-family="sans-serif" font-size="11" text-anchor="middle" fill="#222222" font-weight="bold">2710</text>
+<circle cx="276.25" cy="258.736" r="4.5" fill="#2e8b57" stroke="none" stroke-width="1"/>
+<text x="276.25" y="244.736" font-family="sans-serif" font-size="11" text-anchor="middle" fill="#222222" font-weight="bold">2683</text>
+<circle cx="352.586" cy="281.618" r="4.5" fill="#2e8b57" stroke="none" stroke-width="1"/>
+<text x="352.586" y="267.618" font-family="sans-serif" font-size="11" text-anchor="middle" fill="#222222" font-weight="bold">2472</text>
+<circle cx="428.922" cy="304.285" r="4.5" fill="#2e8b57" stroke="none" stroke-width="1"/>
+<text x="428.922" y="290.285" font-family="sans-serif" font-size="11" text-anchor="middle" fill="#222222" font-weight="bold">2263</text>
+<circle cx="880" cy="387.301" r="4.5" fill="#2e8b57" stroke="none" stroke-width="1"/>
+<text x="874" y="373.301" font-family="sans-serif" font-size="11" text-anchor="end" fill="#222222" font-weight="bold">1499</text>
+<text x="500" y="608" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#222222">prompt tokens</text>
+<text x="54" y="360" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#666666" transform="rotate(-90 54 360)">Prefill, t/s</text>
+</svg>
